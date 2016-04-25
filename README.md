@@ -45,12 +45,12 @@ and add your own machine as :
 		newTM.addTransition("q8", '_', "qa", '_', true);
 		return newTM;
 		```
-
-###### input&outPut
+###### input and outPut
 
 - input some thing seem as `010000110101#010000110101`
 - out put will seem as
-``` q1 010000110101#010000110101
+``` 
+q1 010000110101#010000110101
 x q2 10000110101#010000110101
 x1 q2 0000110101#010000110101
 x10 q2 000110101#010000110101
