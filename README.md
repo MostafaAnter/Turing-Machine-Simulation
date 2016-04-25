@@ -21,7 +21,7 @@ and add your own machine as :
 		newTM.setStartState("q1");
 		newTM.setAcceptState("qa");
 		newTM.setRejectState("qr");
-		newTM.addTransition("q1", '1', "q3", 'x', true);
+		newTM.addTransition("q1", '1', "q3", 'x', true); //true is right, false is left :)
 		newTM.addTransition("q1", '0', "q2", 'x', true);
 		newTM.addTransition("q1", '#', "q8", '#', true);
 		newTM.addTransition("q2", '0', "q2", '0', true);
