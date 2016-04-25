@@ -20,7 +20,7 @@ and add your own machine as :
 		newTM.addState("qr");
 		newTM.setStartState("q1");
 		newTM.setAcceptState("qa");
-		newTM.setRejectState("qr");`
+		newTM.setRejectState("qr");
 		newTM.addTransition("q1", '1', "q3", 'x', true);
 		newTM.addTransition("q1", '0', "q2", 'x', true);
 		newTM.addTransition("q1", '#', "q8", '#', true);
@@ -44,7 +44,6 @@ and add your own machine as :
 		newTM.addTransition("q8", 'x', "q8", 'x', true);
 		newTM.addTransition("q8", '_', "qa", '_', true);
 		return newTM;
-	
 		```
 
 ###### input and outPut
