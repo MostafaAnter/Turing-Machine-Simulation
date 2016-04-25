@@ -47,8 +47,7 @@ and add your own machine as :
 	
 		```
 
-### input and outPut
-
+###### input and outPut
 - input some thing seem as `010000110101#010000110101`
 - out put will seem as
 ``` 
