@@ -6,7 +6,8 @@ if you want to add machine just go to `MachinesLibrary.java class`
 
 and add your own machine as :
 
-``` TuringMachine newTM = new TuringMachine();
+```java
+ TuringMachine newTM = new TuringMachine();
 		newTM.addState("q1");
 		newTM.addState("q2");
 		newTM.addState("q3");
