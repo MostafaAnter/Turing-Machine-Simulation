@@ -47,6 +47,7 @@ and add your own machine as :
 		```
 
 ###### input&outPut
+
 - input some thing seem as `010000110101#010000110101`
 - out put will seem as
 ``` q1 010000110101#010000110101
